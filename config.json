@@ -1,0 +1,11 @@
+{
+  "PluginRepos": null,
+  "DefaultPluginRepoEnabled": true,
+  "Plugins": {
+    "transfer": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-transfer-cli-1.22.12-20230110.1673308800.exe",
+      "description": "Manages importing content across environments.",
+      "version": "1.22.12"
+    }
+  }
+}
