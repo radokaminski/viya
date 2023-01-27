@@ -2,10 +2,140 @@
   "PluginRepos": null,
   "DefaultPluginRepoEnabled": true,
   "Plugins": {
+    "audit": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-audit-cli-1.19.16-20230110.1673308800.exe",
+      "description": "Gets SAS audit information.",
+      "version": "1.19.16"
+    },
+    "authorization": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-authorization-cli-1.20.1-20230113.1673568000.exe",
+      "description": "Gets general authorization information and manages rules.",
+      "version": "1.20.1"
+    },
+    "batch": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-batch-cli-1.7.5-20221202.1669939200.exe",
+      "description": "Manages submitting SAS batch jobs to the cluster.",
+      "version": "1.7.5"
+    },
+    "cas": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-cas-cli-1.13.43-20230118.1674000000.exe",
+      "description": "Manages CAS administration and authorization.",
+      "version": "1.13.43"
+    },
+    "compute": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-compute-cli-1.37.0-20221201.1669852800.exe",
+      "description": "Gets and configures Compute and Launcher Contexts.",
+      "version": "1.37.0"
+    },
+    "configuration": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-configuration-cli-1.31.8-20230117.1673913600.exe",
+      "description": "Manages SAS Viya configuration.",
+      "version": "1.31.8"
+    },
+    "credentials": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-credentials-cli-1.1.14-20230109.1673222400.exe",
+      "description": "Manages Credentials and Domains.",
+      "version": "1.1.14"
+    },
+    "dcmtransfer": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-dcmtransfer-cli-1.15.14-20221219.1671408000.exe",
+      "description": "Manages transfer of rule sets, rule flows, lookup tables, and decisions from a SAS 9.4 environment to a SAS Viya environment",
+      "version": "1.15.14"
+    },
+    "decisiongitdeploy": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-decisiongitdeploy-cli-1.2.22-20221219.1671408000.exe",
+      "description": "Deploys assets from a local git repository to a specified target",
+      "version": "1.2.22"
+    },
+    "devices": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-devices-cli-1.8.16-20230109.1673222400.exe",
+      "description": "Manages mobile device denylist and allowlist actions.",
+      "version": "1.8.16"
+    },
+    "folders": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-folders-cli-1.21.4-20230117.1673913600.exe",
+      "description": "Gets and manages SAS folders.",
+      "version": "1.21.4"
+    },
+    "fonts": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-fonts-cli-1.8.15-20230109.1673222400.exe",
+      "description": "Manages SAS provided fonts and SAS Visual Analytics custom fonts.",
+      "version": "1.8.15"
+    },
+    "identities": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-identities-cli-1.19.0-20220111.1641859200.exe",
+      "description": "Gets identity information and manages custom groups.",
+      "version": "1.19.0"
+    },
+    "job": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-job-cli-2.6.17-20221011.1665446400.exe",
+      "description": "Manages SAS job definitions, job requests, and  job flows.",
+      "version": "2.6.17"
+    },
+    "launcher": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-launcher-cli-1.8.3-20221202.1669939200.exe",
+      "description": "SAS Launcher Service Command Line Interface",
+      "version": "1.8.3"
+    },
+    "licenses": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-licenses-cli-1.7.17-20230109.1673222400.exe",
+      "description": "Manages SAS product licenses.",
+      "version": "1.7.17"
+    },
+    "mip-migration": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-mip-migration-cli-1.2.15-20221206.1670284800.exe",
+      "description": "Migrates Model Implementation Platform content.",
+      "version": "1.2.15"
+    },
+    "models": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-models-cli-1.1.26-20230113.1673568000.exe",
+      "description": "Provides support for registering and managing models within a common model repository, as well as for listing publishing destinations and published objects.",
+      "version": "1.1.26"
+    },
+    "notifications": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-notifications-cli-1.1.11-20230113.1673568000.exe",
+      "description": "Gets and manages database persisted notifications. ",
+      "version": "1.1.11"
+    },
+    "oauth": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-oauth-cli-1.5.11-20230117.1673913600.exe",
+      "description": "Registers and manages OAuth clients.",
+      "version": "1.5.11"
+    },
+    "qkbs": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-qkbs-cli-1.7.15-20230109.1673222400.exe",
+      "description": "Manages SAS Quality Knowledge Bases (QKBs) on a CAS server.",
+      "version": "1.7.15"
+    },
+    "reports": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-reports-cli-1.10.34-20230109.1673222400.exe",
+      "description": "Manages SAS Visual Analytics reports from SAS Viya.",
+      "version": "1.10.34"
+    },
+    "rtdmobjectmigration": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-rtdmobjectmigration-cli-0.6.9-20221219.1671408000.exe",
+      "description": "Manages migration of objects from SAS Real-Time Decision Manager (RTDM) to SAS Intelligent Decisioning",
+      "version": "0.6.9"
+    },
+    "scoreexecution": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-scoreexecution-cli-1.13.14-20221219.1671408000.exe",
+      "description": "Lists or deletes resources such as log files, code files, jobs, and SAS Cloud Analytic Services (CAS) tables that were not deleted when the associated rule set, decision, or model test was deleted",
+      "version": "1.13.14"
+    },
+    "sid-functions": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-sid-functions-cli-1.2.14-20221219.1671408000.exe",
+      "description": "Manages custom functions for use in SAS Intelligent Decisioning",
+      "version": "1.2.14"
+    },
     "transfer": {
       "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-transfer-cli-1.22.12-20230110.1673308800.exe",
       "description": "Manages importing content across environments.",
       "version": "1.22.12"
+    },
+    "visual-forecasting": {
+      "location": "C:\\Users\\radoslaw.kaminski\\.sas\\viya-plugins\\sas-visual-forecasting-cli-1.0.6-20221208.1670457600.exe",
+      "description": "Manages Visual Forecasting projects.",
+      "version": "1.0.6"
     }
   }
 }
